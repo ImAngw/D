@@ -204,7 +204,7 @@ For the ID dataset, we used the CIFAR-10 test set (10000 samples), while the OOD
 
 ### Models
 Two models were used for OOD detection:
-* the best-performing model from Lab1 (`lab1/checkpoints/cnn_d2_res_bigger.pth` )
+* the best-performing model from Lab1 (`lab1/checkpoints/teacher.pth` )
 * an autoencoder, where the encoder is the feature extractor of the best model and the decoder is composed of three convolutional layers.
 
 During training (see `autoencoder_training.py`), the encoder was kept frozen, and only the decoder weights were updated.
