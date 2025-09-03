@@ -80,7 +80,7 @@ def distillation_experiment(configs):
 
 if __name__ == '__main__':
     configs = Configs(
-        checkpoint_dir='DLA_Labs/lab1/checkpoints',
+        checkpoint_dir='../lab1/checkpoints',
         device="cuda" if torch.cuda.is_available() else "cpu",
         seed=118,
 
