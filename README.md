@@ -257,6 +257,9 @@ The network was trained using a combination of cross-entropy loss on the ID samp
   <img src="lab4/imgs/Robust/cifar/soft_roc.png" alt="Img1" width="400">
 </div>
 
+</details>
+
+
 ## Paper video presentation
 Here you will find the video presentation of the paper:  
 An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion,  
@@ -265,5 +268,3 @@ https://drive.google.com/file/d/1P9jE596POHiGIWPJd3RCa-RTkHInK_NZ/view?usp=drive
 
 
 Notably, training on the augmented dataset causes the classification of OOD samples to shift leftward in the histogram, suggesting that the model is less confident in predicting classes for OOD data. Additionally, overall performance is slightly lower than when using the non-augmented dataset.
-
-</details>
