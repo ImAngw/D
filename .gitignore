@@ -1,0 +1,50 @@
+# -----------------------------
+# PyCharm / JetBrains IDE files
+# -----------------------------
+.idea/
+*.iml
+/shelf/
+workspace.xml
+/httpRequests/
+dataSources/
+dataSources.local.xml
+
+# -----------------------------
+# Python bytecode / cache
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# -----------------------------
+# Python packages / build
+# -----------------------------
+*.egg
+*.egg-info/
+dist/
+build/
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+.venv/
+venv/
+env/
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+
+# -----------------------------
+# Jupyter Notebook checkpoints
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# OS / miscellaneous
+# -----------------------------
+.DS_Store
+*.swp
