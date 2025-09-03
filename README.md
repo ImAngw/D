@@ -257,6 +257,8 @@ The network was trained using a combination of cross-entropy loss on the ID samp
   <img src="lab4/imgs/Robust/cifar/soft_roc.png" alt="Img1" width="400">
 </div>
 
+Notably, training on the augmented dataset causes the classification of OOD samples to shift leftward in the histogram, suggesting that the model is less confident in predicting classes for OOD data. Additionally, overall performance is slightly lower than when using the non-augmented dataset.
+
 </details>
 
 
@@ -267,4 +269,4 @@ Rinon Gal, Yuval Alaluf, Yuval Atzmon, Or Patashnik, Amit H. Bermano, Gal Chechi
 https://drive.google.com/file/d/1P9jE596POHiGIWPJd3RCa-RTkHInK_NZ/view?usp=drive_link
 
 
-Notably, training on the augmented dataset causes the classification of OOD samples to shift leftward in the histogram, suggesting that the model is less confident in predicting classes for OOD data. Additionally, overall performance is slightly lower than when using the non-augmented dataset.
+
