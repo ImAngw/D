@@ -1,13 +1,6 @@
 # DLA_Labs
 In this repo, you’ll find all the code I wrote and the results I collected for the DLA labs.  
 
-
-Here you will find the video presentation of the paper:  
-An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion,  
-Rinon Gal, Yuval Alaluf, Yuval Atzmon, Or Patashnik, Amit H. Bermano, Gal Chechik, Daniel Cohen-Or
-https://drive.google.com/file/d/1P9jE596POHiGIWPJd3RCa-RTkHInK_NZ/view?usp=drive_link
-
-
 In all the labs I use custom function that you can find in `my_custom_ai/`:  
 * `my_custom_ai/requirements.txt`
 * `my_custom_ai/README.txt`
@@ -264,6 +257,11 @@ The network was trained using a combination of cross-entropy loss on the ID samp
   <img src="lab4/imgs/Robust/cifar/soft_roc.png" alt="Img1" width="400">
 </div>
 
+## Paper video presentation
+Here you will find the video presentation of the paper:  
+An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion,  
+Rinon Gal, Yuval Alaluf, Yuval Atzmon, Or Patashnik, Amit H. Bermano, Gal Chechik, Daniel Cohen-Or
+https://drive.google.com/file/d/1P9jE596POHiGIWPJd3RCa-RTkHInK_NZ/view?usp=drive_link
 
 
 Notably, training on the augmented dataset causes the classification of OOD samples to shift leftward in the histogram, suggesting that the model is less confident in predicting classes for OOD data. Additionally, overall performance is slightly lower than when using the non-augmented dataset.
