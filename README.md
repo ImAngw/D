@@ -2,8 +2,6 @@
 In this repo, you’ll find all the code I wrote and the results I collected for the DLA labs.  
 
 In all the labs I use custom function that you can find in `my_custom_ai/`:  
-* `my_custom_ai/requirements.txt`
-* `my_custom_ai/README.txt`
 * `my_custom_ai/custom_train/` module with the custom train function
 * `my_custom_ai/utils` module with utilities
 
@@ -98,9 +96,10 @@ In this laboratory exercise we will learn how to work with the HuggingFace ecosy
   <summary>📂 Code organization</summary>
   
   - `utils/`
+  - `models/`
   - `imgs/` includes all the plots I collected for the experiment
-  - `main.py` includes the **baseline** and **finetuning** pipeline
-  - `models.py` includes **SimplerSentenceClassifier** module
+  - `baseline_main.py`
+  - `finetuning_main.py` 
 </details>  
 
 
@@ -158,7 +157,7 @@ In this laboratory session I will develop a methodology for detecting OOD sample
 <details>
   <summary>📂 Code organization</summary>
 
-  - `checkpoints/` contains the autoencoder trained in `autoencoder_training.py` and the classificator trained in `robust_cls_training.py`
+  - `checkpoints/` contains the autoencoder trained in `autoencoder_training.py` and the classificator trained in `robustCLS_training.py`
   - `imgs/` includes all the plots I collected for the experiment
   - `models/` includes `models.py` (with the AutoEncoder module definitions)
   - `utils/` 
