@@ -134,7 +134,7 @@ class ComputeScores:
     def _plot_roc_curve(test_scores, fake_scores):
 
         y_pred = torch.cat((fake_scores, test_scores))
-        gt = torch.cat((torch.ones_like(fake_scores), torch.zeros_like(test_scores)))
+        gt = torch.cat((torch.zeros_like(fake_scores), torch.ones_like(test_scores)))
 
         fig, ax = plt.subplots(1, 2, figsize=(12, 5))
 
