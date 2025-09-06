@@ -125,8 +125,8 @@ class DistillationContainer(FunctionContainer):
         return b.to(self.device), {'label': label.to(self.device), 'probs': probs.to(self.device)}
 
     def loss_function(self, model_output, y, *args, **kwargs):
-        alpha = 0.
-        T = 1.75
+        alpha = 0.5
+        T = 1.25
 
         hard_loss = self.criterion(model_output, y['label'])
 
