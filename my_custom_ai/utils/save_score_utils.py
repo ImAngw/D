@@ -7,7 +7,7 @@ class WeightsAndBiases:
         self._validation(logger_init, required_keys_wandb)
         # run initialization
         self.run = wandb.init(
-            entity= logger_init["entity"],    # your username on WeightsAndBiases ("imangw-florence-university")
+            entity= logger_init["entity"],    # your username on WeightsAndBiases
             project= logger_init["project"],  # name of your project
             name= logger_init["name"],        # name of your experiment
             config= logger_init["configs"]    # dict with all settings you want to save
