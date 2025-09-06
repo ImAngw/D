@@ -93,7 +93,6 @@ class CNN(nn.Module):
 
         self.classification_head = nn.Sequential(
             nn.LayerNorm(first_lin_dim),
-            nn.LayerNorm(first_lin_dim),
             nn.Linear(first_lin_dim, 10)
         )
 
